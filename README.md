@@ -10,7 +10,10 @@ This is a Flutter app that demonstrates the implementation of Clean Architecture
 
 ## Screenshots
 
-![Screenshot 1](screenshots/screenshot1.png)
-![Screenshot 2](screenshots/screenshot2.png)
-![Screenshot 2](screenshots/screenshot2.png)
-![Screenshot 2](screenshots/screenshot2.png)
+<img src="https://github.com/Mahmoud-flutter-dev/movies_app_with_clean_architecture_and_bloc/blob/master/readme/Screenshot%201.jpg" alt="Screenshot 1" width="300">
+
+<img src="https://github.com/Mahmoud-flutter-dev/movies_app_with_clean_architecture_and_bloc/blob/master/readme/Screenshot%202.jpg" alt="Screenshot 1" width="300">
+
+<img src="https://github.com/Mahmoud-flutter-dev/movies_app_with_clean_architecture_and_bloc/blob/master/readme/Screenshot%203.jpg" alt="Screenshot 1" width="300">
+
+<img src="https://github.com/Mahmoud-flutter-dev/movies_app_with_clean_architecture_and_bloc/blob/master/readme/Screenshot%204.jpg" alt="Screenshot 1" width="300">
