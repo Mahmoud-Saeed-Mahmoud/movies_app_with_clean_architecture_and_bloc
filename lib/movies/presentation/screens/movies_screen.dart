@@ -8,6 +8,8 @@ import '../../../core/utils/app_string.dart';
 import '../components/now_playing_component.dart';
 import '../components/top_rated_component.dart';
 import '../controller/movies_bloc.dart';
+import 'now_playing_movies_screen.dart';
+import 'top_rated_movies_screen.dart';
 
 class MoviesScreen extends StatelessWidget {
   const MoviesScreen({Key? key}) : super(key: key);
@@ -44,7 +46,11 @@ class MoviesScreen extends StatelessWidget {
                         ),
                         InkWell(
                           onTap: () {
-                            /// TODO : NAVIGATION TO Top Rated Movies Screen
+                            Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) =>
+                                        const NowPlayingMoviesScreen()));
                           },
                           child: const Padding(
                             padding: EdgeInsets.all(8.0),
@@ -90,7 +96,12 @@ class MoviesScreen extends StatelessWidget {
                         ),
                         InkWell(
                           onTap: () {
-                            /// TODO : NAVIGATION TO Top Rated Movies Screen
+                            Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) =>
+                                      const TopRatedMoviesScreen(),
+                                ));
                           },
                           child: const Padding(
                             padding: EdgeInsets.all(8.0),

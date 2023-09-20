@@ -92,7 +92,8 @@ class MovieRemoteDataSource extends BaseMovieRemoteDataSource {
       return List<RecommendationModel>.from(
           (response.data["results"] as List).map(
         (e) => RecommendationModel.fromJson(e),
-      ));
+      ))
+        ..removeWhere((element) => element.backdropPath == null);
     } else {
       throw ServerException(
         errorMessageModel: ErrorMessageModel.fromJson(response.data),
